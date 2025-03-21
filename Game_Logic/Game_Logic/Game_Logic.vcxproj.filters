@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DoubleBuffer">
+      <UniqueIdentifier>{bcb36db3-b9e5-45b6-8d7c-5b5568e24f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{4ec6a8c5-739d-47e6-a307-77dce37b4629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\00_Scene">
+      <UniqueIdentifier>{b2d92c9d-d74d-4bb4-95fd-7ec7aa27fcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\01_Logo">
+      <UniqueIdentifier>{8a24c2ba-5e1e-4539-a9f2-91518e853745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\02_Menu">
+      <UniqueIdentifier>{657b0ba8-9901-448a-8bcb-929ca28d2309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\03_Stage">
+      <UniqueIdentifier>{2b5fba6e-e81a-409b-953f-289a627ed911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneManager">
+      <UniqueIdentifier>{94abac9c-7585-4831-8f63-aea98504ef97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DeleteMemory">
+      <UniqueIdentifier>{383bfc45-ebcf-4729-939a-a9cc1ed10a87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>Source Files\DoubleBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scene\00_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>Source Files\Scene\01_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Scene\02_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files\Scene\03_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteMemory.cpp">
+      <Filter>Source Files\DeleteMemory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>Source Files\DoubleBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Source Files\Scene\00_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>Source Files\Scene\01_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\Scene\02_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Source Files\Scene\03_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Source Files\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteMemory.h">
+      <Filter>Source Files\DeleteMemory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
