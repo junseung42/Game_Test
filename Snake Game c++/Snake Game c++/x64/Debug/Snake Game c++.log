@@ -1,0 +1,15 @@
+﻿  DeleteMemory.cpp
+  DoubleBuffer.cpp
+C:\Users\user\Desktop\Snake Game c++\Snake Game c++\DoubleBuffer.cpp(69,18): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\user\Desktop\Snake Game c++\Snake Game c++\DoubleBuffer.cpp(69,23): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\user\Desktop\Snake Game c++\Snake Game c++\DoubleBuffer.cpp(81,47): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  Exit.cpp
+  Logo.cpp
+  Main.cpp
+  Menu.cpp
+  Result.cpp
+  Scene.cpp
+  SceneManager.cpp
+  Stage.cpp
+  Generating Code...
+  Snake Game c++.vcxproj -> C:\Users\user\Desktop\Snake Game c++\x64\Debug\Snake Game c++.exe
